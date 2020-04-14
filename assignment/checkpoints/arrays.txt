@@ -3,13 +3,15 @@
 How would you do the following:
 
 # 1 - Find the number of items in an array?
+array.length;
 
 # 2 - Add a new value to the end of an array?
-
+array.push(newValue)
 # 3 - Add a new value to the beginning of an array?
-
+array.shift(newValue)
 # 4 - Remove the last item in an array?
-
+array.pop()
 # 5 - Remove the first item in an array?
-
+array.unshift()
 # 6 - Create a new, empty array and assign it to a variable?
+let emptyArray = [ ];
