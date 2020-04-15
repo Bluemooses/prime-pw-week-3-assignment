@@ -12,9 +12,8 @@ console.log(variable);
 // 5. Add the value of number 15 to the end of the array
 variable.push(15);
 // 6. Write a `for` loop that console logs each value in the array
-for(myValue > 0; variable < 16;)
-{
-  console.log(variable++);
+for(let i=0; i<variable.length; i++){
+  console.log('the for loops of variable', + variable[i]);
 }
 // STRETCH GOALS
 
