@@ -26,6 +26,8 @@ while(myValue < max){
   myValue++
 }
 // 8. Change the second value in the array from 6 to 20, then console log the array
+variable[1] = 20;       // changed value from 6 to 20
+console.log(variable);  // logging variable array
 
 // 9. Below, rewrite the `for` loop from question 6 to a `for of` loop
 
