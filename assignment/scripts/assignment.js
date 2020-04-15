@@ -1,13 +1,14 @@
 // REQUIRED FEATURES
 
 // 1. Create a variable with a value of an array with the following (number) values: 3, 6, 7, 10
-let variable = [3, 6, 7, 10]
+let variable = [3, 6, 7, 10];
 // 2. Create a variable called 'myValue' with a value of the number 0
-
+let myValue = 0;
 // 3. Console log the value of the array at index 2
-
+console.log(variable[2]);
 // 4. Remove the last item in the array, then console log the array
-
+variable.pop();
+console.log(variable);
 // 5. Add the value of number 15 to the end of the array
 
 // 6. Write a `for` loop that console logs each value in the array
