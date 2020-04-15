@@ -36,3 +36,10 @@ for( number of variable ){
 
 // 10. Reassign the value of `myValue` to 3. Then, write a `for` loop that console logs each value in the array,
 // and if the value of the array at `i` matches the value of 'myValue', also console log 'Hurray!'
+myValue = 3;
+for(i=0; i<variable.length; i++){
+  console.log('Logging all of the variable array values', variable[i]);           //   Creating a log for each value in the array
+}
+if(i=myValue){
+  console.log('Hurray!');             //   Creating a string if i is equal to variable myValue
+}
