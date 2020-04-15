@@ -1,1 +1,5 @@
-/* give your assignment a fun background color */
+* give your assignment a fun background color */
+
+body{
+  background-color: cyan; /adjusted background color.
+}
