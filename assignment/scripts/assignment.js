@@ -18,7 +18,13 @@ for(let i=0; i<variable.length; i++){
 // STRETCH GOALS
 
 // 7. Write a `while` loop that will increase the value of 'myValue' by 1 until its value is 10
+const max = 10;                // declaring max count to add to while loop
 
+//  creating a while loop to illustrate how to increase value from 1 to 10
+while(myValue < max){
+  console.log('Here we are increasing the value until 10 is reached', myValue);
+  myValue++
+}
 // 8. Change the second value in the array from 6 to 20, then console log the array
 
 // 9. Below, rewrite the `for` loop from question 6 to a `for of` loop
