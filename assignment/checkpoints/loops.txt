@@ -1,11 +1,17 @@
 # Type your responses on a new line
 
 # 1 - Describe the benefit(s) of using loops in your code.
-
+Loops allow you to repeat the same set of instructions until a certain
+condition is met or until you tell it to stop.  This is useful because
+it allows us to control different scopes of the program based on
+data that is presented and interpolated.
 # 2 - What kind of loop would you want to use if you wanted to do something a certain number of times: for or while?
-
+for(){}
 # 3 - What kind of loop would you want to use if you wanted to do something as long as a condition were true: for or while?
-
+while(){}
 # 4 - What is wrong with the argument of this for loop: `for(i = 0; i < array.length; i++)`?
-
+'i' will always be less the array.length because it is 0, creating an infinite loop and the system
+will be unable to process this.
 # 5 - What does it mean if you get a console error like this: "Uncaught ReferenceError: i is not defined"?
+The variable needs to be declared.  The stack can't process an undeclared variable which is asked to do
+something, and will produce an error letting you know that 'i' is undefined or -> undeclared.
