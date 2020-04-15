@@ -1,7 +1,7 @@
 // REQUIRED FEATURES
 
 // 1. Create a variable with a value of an array with the following (number) values: 3, 6, 7, 10
-
+let variable = [3, 6, 7, 10]
 // 2. Create a variable called 'myValue' with a value of the number 0
 
 // 3. Console log the value of the array at index 2
@@ -20,5 +20,5 @@
 
 // 9. Below, rewrite the `for` loop from question 6 to a `for of` loop
 
-// 10. Reassign the value of `myValue` to 3. Then, write a `for` loop that console logs each value in the array, 
+// 10. Reassign the value of `myValue` to 3. Then, write a `for` loop that console logs each value in the array,
 // and if the value of the array at `i` matches the value of 'myValue', also console log 'Hurray!'
